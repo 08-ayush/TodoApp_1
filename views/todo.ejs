@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo List</title>
+  <!-- Add your preferred CSS styles here -->
+  <script src="https://kit.fontawesome.com/10f6e94041.js" crossorigin="anonymous"></script>
+
+  <%- include("component/header",{username:username})%>
+  
+</head>
+<body>
+   <!-- <header>
+     <h1>Todo List</h1> 
+  </header>  -->
+   
+  <main>
+    <!-- <input id="todoIp" type="text" class="input-box" placeholder="Enter your task..." name="task"> -->
+      
+
+      
+    <div class="todo-container">
+      <input type="text" id="newTodoInput" class="todo-input" placeholder="Add a new todo..."/>
+      <select id ="prioritySelector" class="priority">
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+      </select>
+      <input type="file" name="todoImg" id="imgId" class="add-button" ></input>
+      <button id="btnId" type="submit" class="add-button">Add Task</button>
+
+      <!-- <button id='btnId' class="add-btn">add</button> -->
+
+      <!-- <ul id="todos"> -->
+        
+        <!-- Todo items will appear here -->
+      <!-- </ul>
+    </div>
+</main>
+</body>
+<script src="scripts/todoscript.js"> </script> 
+</html> -->
+
+
+<div id="todos">
+        
+  <!-- Todo items will appear here -->
+</div>
+</div>
+</main>
+</body>
+<script src="scripts/todoscript.js"> </script> 
+</html>
